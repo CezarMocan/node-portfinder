@@ -1,0 +1,25 @@
+{
+  "name": "port-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "package": "pkg ."
+  },
+  "pkg": {
+    "targets": ["macos", "win"],
+    "outputPath": "dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "node-port-scanner": "^3.0.1",
+    "portscanner": "^2.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.6.0"
+  }
+}
